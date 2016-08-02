@@ -50,7 +50,7 @@ curl -L http://buildwithcraft.com/latest.zip?accept_license=yes -o tmp/Craft.zip
 unzip tmp/Craft.zip
 mkdir dist dist/public
 cp -rp craft dist/craft
-rm -rf tmp craft
+rm -rf tmp craft public
 
 craftDir=dist/craft
 publicDir=dist/public
